@@ -1,0 +1,28 @@
+/*.modelos :nth-child(even){
+    direction: rtl;
+}
+ .modelos :nth-child(odd) p{
+     direction: ltr;
+ }*/
+ .contenedor{
+      background-color: black; 
+      height: 120vh;
+ }
+ .modelos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 80%;
+  
+}
+.contenedor h2{
+    font-size: 4em;
+    color: white;
+    text-align:center;
+    margin-top: 0%;
+    margin-bottom: 1em;
+}
+
